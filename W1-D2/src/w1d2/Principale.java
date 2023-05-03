@@ -6,25 +6,19 @@ public class Principale {
 		
 		Rettangolo r1 = new Rettangolo(2, 5);
 		Rettangolo r2 = new Rettangolo(3, 5);
-		Rettangolo r3 = new Rettangolo(3, 6);
 
-		System.out.println(r1.Perimetro());
-		System.out.println(r1.Area());
-		
+		r1.stampaRettangolo();
 		r2.stampaRettangolo();
-		
-//		double perimetri = r1.Perimetro() + r2.Perimetro();
-//		double aree = r1.Area() + r2.Area();
-		
-//		System.out.println(aree);
-//		System.out.println(perimetri);
+
 		stampaDueRettangoli(r1, r2);
 	}
 
-	public static void stampaDueRettangoli(Rettangolo r1, Rettangolo r2) {
-		double perimetri = r1.Perimetro() + r2.Perimetro();
-		double aree = r1.Area() + r2.Area();
+	public static void stampaDueRettangoli(Rettangolo x, Rettangolo y) {
+		double perimetri = x.Perimetro() + y.Perimetro();
+		double aree = x.Area() + y.Area();
 		System.out.println(aree);
 		System.out.println(perimetri);
 	}
+
+	
 }

@@ -22,15 +22,7 @@ public class Rettangolo{
 	public void stampaRettangolo() {
 		double perimetro = Perimetro();
 		double area = Area();
-		
 		System.out.println("Perimetro: " + perimetro);
         System.out.println("Area: " + area);
 	}
-	
-	public void stampaDueRettangoli() {
-		double perimetroX = Perimetro();
-		double area = Area();
-		
-	}
-	
 }
