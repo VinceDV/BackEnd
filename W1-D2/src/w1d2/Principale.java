@@ -13,11 +13,18 @@ public class Principale {
 		
 		r2.stampaRettangolo();
 		
+//		double perimetri = r1.Perimetro() + r2.Perimetro();
+//		double aree = r1.Area() + r2.Area();
+		
+//		System.out.println(aree);
+//		System.out.println(perimetri);
+		stampaDueRettangoli(r1, r2);
+	}
+
+	public static void stampaDueRettangoli(Rettangolo r1, Rettangolo r2) {
 		double perimetri = r1.Perimetro() + r2.Perimetro();
 		double aree = r1.Area() + r2.Area();
-		
 		System.out.println(aree);
 		System.out.println(perimetri);
 	}
-
 }

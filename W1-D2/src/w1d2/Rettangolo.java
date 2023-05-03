@@ -28,7 +28,7 @@ public class Rettangolo{
 	}
 	
 	public void stampaDueRettangoli() {
-		double perimetro = Perimetro();
+		double perimetroX = Perimetro();
 		double area = Area();
 		
 	}
