@@ -1,6 +1,8 @@
 package w1d2ex2;
 
 public class CartaSIM {
+	
+	public static double costoMinutoChiamata = 0.20;
 	public String telefono;
 	public double credito;
 	public Chiamata[] chiamateEffettuate;
@@ -15,12 +17,14 @@ public class CartaSIM {
 		this.credito += importo;
 	}
 	
-	public void effettuaChiamata(Chiamata c) {
+	public void effettuaChiamata(String numero, int minuti) {
 		if(this.credito > 0) {
+			Chiamata c = new Chiamata(numero, minuti);
+			System.out.println("Chiamata effettuata sul num. " + c.numeroChiamato + " min." + c.durataMinuti);
+			this.credito -= minuti*costoMinutoChiamata;
 			for (int i = 0; i < chiamateEffettuate.length; i++) {
 				if(chiamateEffettuate[i] == null) {
 					chiamateEffettuate[i] = c;
-					this.credito = credito -3;
 					break;
 				}
 			}

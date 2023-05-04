@@ -14,6 +14,7 @@ public class Principale {
 	}
 
 	public static void stampaDueRettangoli(Rettangolo x, Rettangolo y) {
+		
 		double perimetri = x.Perimetro() + y.Perimetro();
 		double aree = x.Area() + y.Area();
 		System.out.println(aree);
