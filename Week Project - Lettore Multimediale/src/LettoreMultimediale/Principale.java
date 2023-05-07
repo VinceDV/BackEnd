@@ -1,5 +1,5 @@
 package LettoreMultimediale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Principale {
 
@@ -7,7 +7,7 @@ public class Principale {
 		riproduzione();
 	}
 		
-        
+
 		public static void riproduzione() {
 			
 			ElementoMultimediale[] arrElem = new ElementoMultimediale[5];
@@ -28,10 +28,9 @@ public class Principale {
 		
 		boolean inputCor = true;
 		do {
-			System.out.println("Benvenuto nel lettore multimediale! Inserisci un numero da 0 a 4 per cominciare!"); 
-			Scanner st = new Scanner(System.in);
-			int numeroElem = st.nextInt();
-		if (numeroElem >= 0 && numeroElem <= 4) {
+			System.out.println("Benvenuto nel lettore multimediale!");
+			int numeroElem = 0;
+			numeroInput(numeroElem);
 			if (arrElem[numeroElem] instanceof Audio) {
 				Audio a = (Audio) arrElem[numeroElem];
 	    		System.out.println(a);        
@@ -46,11 +45,6 @@ public class Principale {
 				Immagine c = (Immagine) arrElem[numeroElem];
 	    		System.out.println(c);        
 	    		c.show(c.titolo, c.luminosita);
-			}
-			} 
-		else {
-				System.out.println("Devi inserire un numero da 0 a 4!");
-				inputCor = true;
 			}
 		} while (!inputCor);
 		ripeti();
@@ -76,10 +70,22 @@ public class Principale {
 			}
 			}while (conferma);
 			}
+		
+		public static void numeroInput(int y) {
+			Scanner st = new Scanner(System.in);
+			y = 0;
+			System.out.println("Inserisci un numero da 0 a 4!");
+			if (!st.hasNextInt()){
+				System.out.println("Devi inserire un numero!");
+				numeroInput(y);
+				} else {
+			String z = st.next();
+			y = Integer.parseInt(z);
+			if (y < 0 || y > 4) {
+				System.out.println("Il numero deve essere compreso tra 0 e 4!");
+				numeroInput(y);
+			}
+				}
+			}
 		}
-
-// Prof so che non sono riuscito a implementare la funzione di creazione ma questa e' tutta farina del mio sacco
-// NO ChatGPT, NO aiuti esterni
-// e sono contento del risultato tutto sommato.
-// Buona giornata!
 
