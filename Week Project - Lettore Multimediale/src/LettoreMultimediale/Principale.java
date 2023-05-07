@@ -24,53 +24,62 @@ public class Principale {
 			arrElem[2] = obj2;
 			arrElem[3] = obj3;
 			arrElem[4] = obj4;
-			
-		System.out.println("Benvenuto nel lettore multimediale! Inserisci un numero da 0 a 4 per cominciare!");        
-		Scanner st = new Scanner(System.in);
-		int numeroElem = st.nextInt();
 		
 		
-		if (arrElem[numeroElem] instanceof Audio) {
-			Audio a = (Audio) arrElem[numeroElem];
-    		System.out.println(a);        
-    		a.play(a.durata, a.titolo, a.volume);
-		}
-		else if(arrElem[numeroElem] instanceof Video) {
-			Video b = (Video) arrElem[numeroElem];
-    		System.out.println(b);        
-    		b.play(b.durata, b.titolo, b.volume, b.luminosita);
-		}
-		else if (arrElem[numeroElem] instanceof Immagine) {
-			Immagine c = (Immagine) arrElem[numeroElem];
-    		System.out.println(c);        
-    		c.show(c.titolo, c.luminosita);
-		}
+		boolean inputCor = true;
+		do {
+			System.out.println("Benvenuto nel lettore multimediale! Inserisci un numero da 0 a 4 per cominciare!"); 
+			Scanner st = new Scanner(System.in);
+			int numeroElem = st.nextInt();
+		if (numeroElem >= 0 && numeroElem <= 4) {
+			if (arrElem[numeroElem] instanceof Audio) {
+				Audio a = (Audio) arrElem[numeroElem];
+	    		System.out.println(a);        
+	    		a.play(a.durata, a.titolo, a.volume);
+			}
+			else if(arrElem[numeroElem] instanceof Video) {
+				Video b = (Video) arrElem[numeroElem];
+	    		System.out.println(b);        
+	    		b.play(b.durata, b.titolo, b.volume, b.luminosita);
+			}
+			else if (arrElem[numeroElem] instanceof Immagine) {
+				Immagine c = (Immagine) arrElem[numeroElem];
+	    		System.out.println(c);        
+	    		c.show(c.titolo, c.luminosita);
+			}
+			} 
+		else {
+				System.out.println("Devi inserire un numero da 0 a 4!");
+				inputCor = true;
+			}
+		} while (!inputCor);
 		ripeti();
-		}
-		
+		};
+
 		public static void ripeti() {
 			boolean conferma = true;
 			do {
 			System.out.println("Vuoi riprodurre qualcos'altro? 'S' per confermare 'N' per uscire.");        
 			Scanner st = new Scanner(System.in);
-			String risposta = st.nextLine();
+			String risposta = st.nextLine().toUpperCase();
 			switch (risposta) {
 			case "S":riproduzione();
-					conferma = true;
+			conferma = false;
 					break;
 			case "N": 
 				System.out.println("Arrivederci!");
-				conferma = true;
+				conferma = false;
 				break;
 			default:
 				System.out.println("Inserisci una risposta corretta!");
-				conferma = false;
+				continue;
 			}
-			}while (!conferma);
+			}while (conferma);
 			}
 		}
 
-// Prof so che non sono riuscito a implementare la funzione di creazione ma perlomeno questa e' tutta farina del mio sacco
+// Prof so che non sono riuscito a implementare la funzione di creazione ma questa e' tutta farina del mio sacco
 // NO ChatGPT, NO aiuti esterni
-// e sono contento del risultato tutto sommato
+// e sono contento del risultato tutto sommato.
+// Buona giornata!
 
