@@ -1,0 +1,40 @@
+package ex2;
+
+import java.util.*;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.epicode.test.log.MainProject;
+public class MainProject2 {
+
+	static Logger log = LoggerFactory.getLogger(MainProject.class);
+
+	public static void main(String[] args) {
+		primaFunzione(4);
+	}
+	
+	public static void primaFunzione(int n) {
+	        
+			List<Integer> l = new ArrayList<Integer>();
+			for (int i = 0; i < n; i++) {
+			Random rand = new Random();
+	        int randomNumber = rand.nextInt(101);
+	        l.add(randomNumber);
+			};
+			log.info("Prima lista: " + l.toString());
+			secondaFunzione(l);
+	}
+	public static void secondaFunzione(List<Integer> x) {
+		
+		List<Integer> l2 = new ArrayList<Integer>(x);
+		List<Integer> l3 = l2;
+		
+		for (int i = l2.size() - 1; i > -1; i--) {
+			l3.add(l2.get(i));
+		};
+		
+		//l3 = Collections.reverse(l2);
+		log.info("Seconda lista: " + l3.toString());
+	}
+}

@@ -1,0 +1,135 @@
+10:28:09.546 [main] INFO  com.epicode.test.log.MainProject - Test Logger!!!
+10:28:09.552 [main] ERROR com.epicode.test.log.MainProject - Test Error!
+10:28:09.552 [main] WARN  com.epicode.test.log.MainProject - Test warning!!!
+10:28:09.552 [main] DEBUG com.epicode.test.log.MainProject - Test debug
+10:39:10.321 [main] INFO  Test Logger!!!
+10:39:10.327 [main] ERROR Test Error!
+10:39:10.327 [main] WARN  Test warning!!!
+10:39:10.328 [main] DEBUG Test debug
+10:41:25.492 [main] ERROR Test Error!
+10:41:39.905 [main] INFO  Test Logger!!!
+10:41:39.911 [main] ERROR Test Error!
+10:41:39.911 [main] WARN  Test warning!!!
+10:41:39.911 [main] DEBUG Test debug
+10:42:42.621 [main] INFO  Test Logger!!!
+10:42:42.627 [main] ERROR Test Error!
+10:42:42.628 [main] WARN  Test warning!!!
+10:42:42.629 [main] DEBUG Test debug!!
+10:44:36.147 [main] INFO  Test Logger!!!
+10:44:36.153 [main] ERROR Test Error!
+10:44:36.153 [main] WARN  Test warning!!!
+10:44:36.153 [main] DEBUG Test debug!!
+10:46:15.097 [main] INFO  Test Logger!!!
+10:46:15.103 [main] ERROR Test Error!
+10:46:15.103 [main] WARN  Test warning!!!
+10:46:15.104 [main] DEBUG Test debug!!
+10:49:47.573 [main] INFO  Test Logger!!!
+10:49:47.579 [main] ERROR Test Error!
+10:49:47.579 [main] WARN  Test warning!!!
+10:49:47.579 [main] DEBUG Test debug!!
+10:50:24.529 [main] INFO  Test Logger!!!
+10:50:24.534 [main] ERROR Test Error!
+10:50:24.534 [main] WARN  Test warning!!!
+10:50:24.534 [main] DEBUG Test debug!!
+12:11:56.438 [main] INFO  Test Logger!!!
+12:11:56.443 [main] ERROR Test Error!
+12:11:56.443 [main] WARN  Test warning!!!
+12:11:56.443 [main] DEBUG Test debug!!
+12:23:58.165 [main] INFO  Contains 'Secondo elemento': true
+12:23:58.172 [main] INFO  Primo elemento
+12:23:58.174 [main] INFO  Secondo elemento
+12:23:58.174 [main] INFO  Terzo elemento
+13:24:17.089 [main] INFO  
+13:24:17.094 [main] INFO  ciao
+13:24:17.094 [main] INFO  come
+13:24:17.094 [main] INFO  stai
+13:32:18.610 [main] INFO  
+13:32:18.616 [main] INFO  ciao
+13:38:07.625 [main] INFO  
+13:38:07.630 [main] INFO  ehiehi
+13:53:02.291 [main] INFO  
+13:53:02.296 [main] INFO  cc
+13:53:02.297 [main] INFO  2
+13:53:02.297 [main] INFO  2
+14:25:34.563 [main] INFO  
+14:25:34.570 [main] INFO  ciaociao
+14:25:34.570 [main] INFO  
+14:25:34.570 [main] INFO  ciao
+14:25:53.475 [main] INFO  
+14:25:53.481 [main] INFO  ciao
+14:26:14.349 [main] INFO  
+14:26:46.436 [main] INFO  ciao
+14:27:09.067 [main] INFO  ciao
+14:27:09.073 [main] INFO  come
+14:27:09.074 [main] INFO  ciao
+14:27:09.074 [main] INFO  come
+14:28:30.604 [main] INFO  due
+14:28:30.609 [main] INFO  ciao
+14:28:30.610 [main] INFO  due
+14:28:30.610 [main] INFO  ciao
+14:34:06.732 [main] INFO  due
+14:34:06.738 [main] INFO  sei
+14:34:06.738 [main] INFO  uno
+14:34:06.739 [main] INFO  due
+14:34:06.739 [main] INFO  sei
+14:34:06.740 [main] INFO  uno
+14:34:06.740 [main] INFO  List size: 3
+14:51:22.781 [main] INFO  ciao
+14:51:22.787 [main] INFO  ciao
+14:51:22.787 [main] INFO  come
+14:58:39.276 [main] INFO  ciao
+14:58:39.282 [main] INFO  se
+14:58:39.282 [main] INFO  mi
+15:10:32.046 [main] INFO  due
+15:10:32.051 [main] INFO  uno
+15:22:02.503 [main] INFO  due
+15:22:02.509 [main] INFO  tre
+15:22:02.509 [main] INFO  uno
+15:22:02.509 [main] INFO  due
+15:22:02.509 [main] INFO  tre
+15:22:02.509 [main] INFO  uno
+15:22:37.718 [main] INFO  due
+15:22:37.724 [main] INFO  tre
+15:22:37.725 [main] INFO  uno
+15:59:13.764 [main] INFO  [12, 12, 77, 2]
+16:22:24.290 [main] INFO  tu
+16:22:24.296 [main] INFO  ciao
+16:22:24.296 [main] INFO  come
+16:22:24.296 [main] INFO  stai
+16:22:24.297 [main] INFO  ciao
+16:22:24.297 [main] INFO  come
+16:22:24.297 [main] INFO  tu
+16:22:24.297 [main] INFO  stai
+16:23:23.698 [main] INFO  Paroletu
+16:23:23.703 [main] INFO  Paroleciao
+16:23:23.703 [main] INFO  Parolecome
+16:23:23.704 [main] INFO  Parolestai
+16:23:23.704 [main] INFO  Doppioniciao
+16:23:23.704 [main] INFO  Doppionicome
+16:23:23.704 [main] INFO  unichetu
+16:23:23.704 [main] INFO  unichestai
+16:30:01.861 [main] INFO  [92, 94, 52, 93]
+16:30:01.866 [main] INFO  [92, 94, 52, 93]
+16:30:29.361 [main] INFO  Prima lista: [32, 28, 24, 80]
+16:30:29.367 [main] INFO  Seconda lista: [32, 28, 24, 80]
+16:53:10.932 [main] INFO  Prima lista: [66, 1, 69, 88]
+16:53:10.938 [main] INFO  Seconda lista: []
+16:53:26.781 [main] INFO  Prima lista: [98, 84, 4, 87]
+16:53:26.787 [main] INFO  Seconda lista: []
+16:54:04.684 [main] INFO  Prima lista: [74, 53, 9, 79]
+16:54:04.690 [main] INFO  Seconda lista: []
+16:55:53.635 [main] INFO  Prima lista: [10, 65, 78, 26]
+16:55:53.641 [main] INFO  Seconda lista: []
+16:56:20.852 [main] INFO  Prima lista: [91, 82, 11, 29]
+16:56:20.859 [main] INFO  Seconda lista: []
+16:56:50.032 [main] INFO  Prima lista: [25, 31, 35, 21]
+16:57:07.841 [main] INFO  Prima lista: [3, 49, 66, 75]
+16:57:07.847 [main] INFO  Seconda lista: [75, 66, 49]
+16:57:36.794 [main] INFO  Prima lista: [12, 9, 87, 81]
+16:57:36.800 [main] INFO  Seconda lista: [81, 87, 9, 12]
+16:57:54.686 [main] INFO  Prima lista: [54, 38, 85, 12]
+16:57:54.692 [main] INFO  Seconda lista: [12, 85, 38, 54]
+16:58:25.558 [main] INFO  Prima lista: [20, 62, 13, 92]
+16:58:25.564 [main] INFO  Seconda lista: [20, 62, 13, 92][92, 13, 62, 20]
+16:58:50.804 [main] INFO  Prima lista: [61, 93, 98, 55]
+16:58:50.810 [main] INFO  Seconda lista: [61, 93, 98, 55, 55, 98, 93, 61]
