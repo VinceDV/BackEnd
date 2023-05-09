@@ -24,6 +24,7 @@ public class MainProject2 {
 			};
 			log.info("Prima lista: " + l.toString());
 			secondaFunzione(l);
+			terzaFunzione(l, false);
 	}
 	public static void secondaFunzione(List<Integer> x) {
 		
@@ -36,5 +37,18 @@ public class MainProject2 {
 		
 		//l3 = Collections.reverse(l2);
 		log.info("Seconda lista: " + l3.toString());
+	}
+	public static void terzaFunzione(List<Integer> x, boolean y) {
+		System.out.print("Terza Funzione ");
+		if (y) {
+			for (int i = 0; i < x.size(); i++) {
+				i++;
+				System.out.print(x.get(i) + " ");
+			}
+			} else {
+				for (int i = 1; i < x.size(); i++) {
+					System.out.print(x.get(i) + " ");
+				}
+			};
 	}
 }
