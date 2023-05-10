@@ -1,0 +1,166 @@
+14:23:17.176 [Thread-0] INFO  *
+14:23:18.191 [Thread-0] INFO  *
+14:23:19.206 [Thread-0] INFO  *
+14:23:20.207 [Thread-0] INFO  *
+14:23:21.222 [Thread-0] INFO  *
+14:23:22.235 [Thread-0] INFO  *
+14:23:23.248 [Thread-0] INFO  *
+14:23:24.253 [Thread-0] INFO  *
+14:23:25.259 [Thread-0] INFO  *
+14:23:26.275 [Thread-0] INFO  *
+14:24:46.513 [Thread-1] INFO  #
+14:24:46.513 [Thread-0] INFO  *
+14:24:47.525 [Thread-0] INFO  *
+14:24:47.525 [Thread-1] INFO  #
+14:24:48.539 [Thread-1] INFO  #
+14:24:48.539 [Thread-0] INFO  *
+14:24:49.542 [Thread-1] INFO  #
+14:24:49.542 [Thread-0] INFO  *
+14:24:50.551 [Thread-1] INFO  #
+14:24:50.553 [Thread-0] INFO  *
+14:24:51.566 [Thread-1] INFO  #
+14:24:51.566 [Thread-0] INFO  *
+14:24:52.569 [Thread-1] INFO  #
+14:24:52.569 [Thread-0] INFO  *
+14:24:53.573 [Thread-1] INFO  #
+14:24:53.573 [Thread-0] INFO  *
+14:24:54.590 [Thread-1] INFO  #
+14:24:54.590 [Thread-0] INFO  *
+14:24:55.604 [Thread-1] INFO  #
+14:24:55.604 [Thread-0] INFO  *
+14:24:58.703 [Thread-1] INFO  #
+14:24:58.703 [Thread-0] INFO  *
+14:24:59.718 [Thread-0] INFO  *
+14:25:00.716 [Thread-1] INFO  #
+14:25:00.731 [Thread-0] INFO  *
+14:25:01.743 [Thread-0] INFO  *
+14:25:02.725 [Thread-1] INFO  #
+14:25:02.757 [Thread-0] INFO  *
+14:25:03.771 [Thread-0] INFO  *
+14:25:04.731 [Thread-1] INFO  #
+14:25:04.779 [Thread-0] INFO  *
+14:25:05.792 [Thread-0] INFO  *
+14:25:06.742 [Thread-1] INFO  #
+14:25:06.806 [Thread-0] INFO  *
+14:25:07.822 [Thread-0] INFO  *
+14:25:08.758 [Thread-1] INFO  #
+14:25:10.759 [Thread-1] INFO  #
+14:25:12.761 [Thread-1] INFO  #
+14:25:14.776 [Thread-1] INFO  #
+14:25:16.776 [Thread-1] INFO  #
+14:25:29.531 [Thread-1] INFO  #
+14:25:29.531 [Thread-0] INFO  *
+14:25:30.544 [Thread-0] INFO  *
+14:25:30.544 [Thread-1] INFO  #
+14:25:31.547 [Thread-0] INFO  *
+14:25:31.547 [Thread-1] INFO  #
+14:25:32.559 [Thread-1] INFO  #
+14:25:32.559 [Thread-0] INFO  *
+14:25:33.573 [Thread-1] INFO  #
+14:25:33.573 [Thread-0] INFO  *
+14:25:34.590 [Thread-0] INFO  *
+14:25:34.590 [Thread-1] INFO  #
+14:25:35.610 [Thread-1] INFO  #
+14:25:35.610 [Thread-0] INFO  *
+14:25:36.622 [Thread-0] INFO  *
+14:25:36.622 [Thread-1] INFO  #
+14:25:37.636 [Thread-0] INFO  *
+14:25:37.636 [Thread-1] INFO  #
+14:25:38.651 [Thread-1] INFO  #
+14:25:38.651 [Thread-0] INFO  *
+14:26:12.660 [Thread-1] INFO  #
+14:26:12.660 [Thread-0] INFO  *
+14:26:13.679 [Thread-1] INFO  #
+14:26:13.679 [Thread-0] INFO  *
+14:26:14.681 [Thread-1] INFO  #
+14:26:14.681 [Thread-0] INFO  *
+14:26:15.693 [Thread-1] INFO  #
+14:26:15.693 [Thread-0] INFO  *
+14:26:16.706 [Thread-1] INFO  #
+14:26:16.706 [Thread-0] INFO  *
+14:26:17.725 [Thread-1] INFO  #
+14:26:17.725 [Thread-0] INFO  *
+14:26:18.738 [Thread-1] INFO  #
+14:26:18.738 [Thread-0] INFO  *
+14:26:19.747 [Thread-1] INFO  #
+14:26:19.747 [Thread-0] INFO  *
+14:26:20.756 [Thread-0] INFO  *
+14:26:20.756 [Thread-1] INFO  #
+14:26:21.770 [Thread-1] INFO  #
+14:26:21.770 [Thread-0] INFO  *
+16:14:10.387 [Thread-0] INFO  La somma dei primi 1000 numeri e' 0
+16:14:17.003 [Thread-0] INFO  La somma dei primi 1000 numeri e' 0
+16:14:19.621 [Thread-0] INFO  La somma dei primi 1000 numeri e' 0
+16:14:48.945 [Thread-0] INFO  La somma dei primi 1000 numeri e' 0
+16:16:41.828 [Thread-0] INFO  La somma dei primi 1000 numeri e' 19
+16:16:48.634 [Thread-0] INFO  La somma dei primi 1000 numeri e' 33
+16:16:59.496 [Thread-0] INFO  La somma dei primi 1000 numeri e' 3843
+16:18:31.210 [Thread-0] INFO  La somma dei primi 1000 numeri e' 2736
+16:24:00.050 [Thread-0] INFO  La somma dei primi 1000 numeri e' 94
+16:24:00.057 [Thread-1] INFO  La somma dei primi 1000 numeri e' 0
+16:24:00.057 [Thread-2] INFO  La somma dei primi 1000 numeri e' 0
+16:24:37.294 [Thread-0] INFO  La somma dei primi 1000 numeri e' 348
+16:24:37.299 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:24:37.300 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:26:21.246 [Thread-0] INFO  La somma dei primi 1000 numeri e' 872
+16:26:21.252 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:26:21.252 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:26:42.496 [Thread-0] INFO  La somma dei primi 1000 numeri e' 1366
+16:26:42.502 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:26:42.502 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:26:46.584 [Thread-0] INFO  La somma dei primi 1000 numeri e' 2955
+16:26:46.590 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:26:46.591 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:26:47.978 [Thread-0] INFO  La somma dei primi 1000 numeri e' 3552
+16:26:47.984 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:26:47.984 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:26:51.873 [Thread-0] INFO  La somma dei primi 1000 numeri e' 836
+16:26:51.879 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:26:51.879 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:26:53.117 [Thread-0] INFO  La somma dei primi 1000 numeri e' 4234
+16:26:53.124 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:26:53.125 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:27:40.482 [Thread-0] INFO  La somma dei primi 1000 numeri e' 1395
+16:27:40.489 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:27:40.489 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:27:42.768 [Thread-0] INFO  La somma dei primi 1000 numeri e' 2293
+16:27:42.774 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:27:42.775 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:28:55.326 [Thread-0] INFO  La somma dei primi 1000 numeri e' 1365
+16:28:55.332 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:28:55.333 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:39:17.196 [Thread-0] INFO  La somma dei primi 1000 numeri e' 1998
+16:39:17.202 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:39:17.203 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:39:19.313 [Thread-0] INFO  La somma dei primi 1000 numeri e' 499
+16:39:19.318 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:39:19.319 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+16:39:20.680 [Thread-0] INFO  La somma dei primi 1000 numeri e' 1336
+16:39:20.686 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+16:39:20.687 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:05:45.022 [Thread-0] INFO  La somma dei primi 1000 numeri e' 421
+17:05:45.028 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:05:45.029 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:06:05.411 [Thread-0] INFO  La somma dei primi 1000 numeri e' 387
+17:06:05.417 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:06:05.419 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:06:06.699 [Thread-0] INFO  La somma dei primi 1000 numeri e' 1476
+17:06:06.706 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:06:06.707 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:06:36.716 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:06:36.721 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:07:14.819 [Thread-0] INFO  La somma dei primi 1000 numeri e' 4016
+17:07:14.826 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:07:14.826 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:08:38.597 [Thread-0] INFO  La somma dei primi 1000 numeri e' 3643
+17:08:38.606 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:08:38.607 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:08:44.356 [Thread-0] INFO  La somma dei primi 1000 numeri e' 3162
+17:08:44.362 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:08:44.363 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:10:20.929 [Thread-0] INFO  La somma dei primi 1000 numeri e' 3110
+17:10:20.936 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 0
+17:10:20.940 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 0
+17:11:55.036 [Thread-0] INFO  La somma dei primi 1000 numeri e' 52277
+17:11:55.042 [Thread-1] INFO  La somma dei 1000 numeri successivi e' 52135
+17:11:55.043 [Thread-2] INFO  La somma degli ultimi 1000 numeri e' 48939
