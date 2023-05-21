@@ -4,15 +4,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import utils.Periodicita;
 
 import java.time.LocalDate;
 import java.io.*;
 
 public class MainProject {
 
-	enum Periodicita {
-		SETTIMANALE, MENSILE, SEMESTRALE
-	}
 
 	static String nomeFile = "libreria.txt";
 
@@ -223,7 +221,7 @@ public class MainProject {
 		Iterator<ElementiLibreria> iterator = libreria.iterator();
 		while (iterator.hasNext()) {
 			ElementiLibreria elemento = iterator.next();
-			if (elemento.ISBN == idDaEliminare) {
+			if (elemento.getISBN() == idDaEliminare) {
 				iterator.remove();
 				System.out.println("Elemento con ID " + idDaEliminare + " rimosso.");
 				System.out.println(" ");
@@ -244,8 +242,8 @@ public class MainProject {
 		Iterator<ElementiLibreria> iterator = libreria.iterator();
 		while (iterator.hasNext()) {
 			ElementiLibreria elemento = iterator.next();
-			if (elemento.ISBN == idDaCercare) {
-				System.out.println(elemento.ISBN + ": " + elemento);
+			if (elemento.getISBN() == idDaCercare) {
+				System.out.println(elemento.getISBN() + ": " + elemento);
 				elementoTrovato = true;
 				System.out.println(" ");
 				break;
@@ -267,8 +265,8 @@ public class MainProject {
 		Iterator<ElementiLibreria> iterator = libreria.iterator();
 		while (iterator.hasNext()) {
 			ElementiLibreria elemento = iterator.next();
-			if (elemento.anno == annoPubblicazione) {
-				System.out.println(elemento.anno + ": " + elemento);
+			if (elemento.getAnno() == annoPubblicazione) {
+				System.out.println(elemento.getAnno() + ": " + elemento);
 				System.out.println(" ");
 				elementoTrovato = true;
 				break;

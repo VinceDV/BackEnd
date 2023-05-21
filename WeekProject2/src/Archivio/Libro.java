@@ -1,25 +1,44 @@
 package Archivio;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "libri")
 public class Libro extends ElementiLibreria {
 
-	private String autore;
-	private String genere;
+    @Column(nullable = false)
+    private String autore;
 
-	public Libro(String titolo, int anno, int pagine, String autore, String genere) {
-		super(titolo, anno, pagine);
-		this.autore = autore;
-		this.genere = genere;
-	}
+    @Column(nullable = false)
+    private String genere;
+    
+    public Libro() {
+    }
+    
+    public Libro(String titolo, int annoPubblicazione, int numeroPagine, String autore, String genere) {
+        super(titolo, annoPubblicazione, numeroPagine);
+        this.autore = autore;
+        this.genere = genere;
+    }
+    
+    public String getAutore() {
+        return autore;
+    }
 
-	@Override
-	public String toString() {
-		return "Codice ISBN: " + ISBN + ", Titolo: " + titolo + ", Anno di pubblicazione: " + anno
-				+ ", Numero di pagine: " + pagine + ", Autore: " + autore + ", Genere: " + genere + ".";
-	}
+    public void setAutore(String autore) {
+        this.autore = autore;
+    }
 
-	public Object getAutore() {
+    public String getGenere() {
+        return genere;
+    }
 
-		return autore;
-	}
+    public void setGenere(String genere) {
+        this.genere = genere;
+    }
 
+    @Override
+    public String toString() {
+        return "Libro [autore=" + autore + ", genere=" + genere + "]" + super.toString();
+    }
 }

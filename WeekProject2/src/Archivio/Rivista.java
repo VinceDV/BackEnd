@@ -1,22 +1,39 @@
 package Archivio;
 
-import Archivio.MainProject.Periodicita;
+import javax.persistence.*;
 
-public class Rivista extends ElementiLibreria{
+import utils.Periodicita;
+
+@Entity
+@Table(name="riviste")
+public class Rivista extends ElementiLibreria {
+
+	@Enumerated(EnumType.STRING)
+	@Column(nullable = false)
+	private Periodicita periodicita;
 	
-	protected Periodicita periodicita;
 	
-	public Rivista(String titolo, int anno, int pagine, Periodicita periodicita) {
-		super(titolo, anno, pagine);
-	    this.periodicita = periodicita;
+	public Rivista() {
 	}
-	
+
+	public Rivista(String titolo, int annoPubblicazione, int numeroPagine, Periodicita periodicita) {
+		super(titolo, annoPubblicazione, numeroPagine);
+		this.periodicita=periodicita;
+	}
+
+	public Periodicita getPeriodicita() {
+		return periodicita;
+	}
+
+	public void setPeriodicita(Periodicita periodicita) {
+		this.periodicita = periodicita;
+	}
+
 	@Override
 	public String toString() {
-		return "Codice ISBN: " + ISBN + ", Titolo: " + titolo + ", Anno di pubblicazione: " + anno
-				+ ", Numero di pagine: " + pagine + ", Periodicita: " + periodicita + ".";
+		return  "Rivista [periodicita=" + periodicita + super.toString();
 	}
-	public Periodicita getPeriodicita() {
-	    return periodicita;
-	  }
+	
+	
+
 }
